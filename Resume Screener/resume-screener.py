@@ -124,7 +124,7 @@ def log_training_data(prompt, response, file="train_data.jsonl"):
 job_description = input('Enter job description: ')
 
 try:
-    resume_text = extract_text_from_pdf("Prathamesh Bhirud 14 YOE.pdf")
+    resume_text = extract_text_from_pdf("resume.pdf")
 except Exception as e:
     print(f"Error loading resume: {e}")
     exit()
