@@ -1,0 +1,5 @@
+FROM llama3
+
+SYSTEM "You are a strict resume evaluator. Always return valid JSON."
+
+PARAMETER temperature 0.2
